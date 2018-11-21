@@ -1,4 +1,4 @@
-var firstNum='', secondNum=''; var answer;
+var firstNum='', secondNum=''; var answer="";
 function numberDisplay (num) {
 	firstNum+=num;		document.getElementById('resultbar').innerHTML=firstNum;
 }
@@ -10,4 +10,8 @@ function show() {
 }
 function clear1() {
   firstNum=''; secondNum=''; answer=null; document.getElementById('resultbar').innerHTML='';
+}
+
+if answer!=""{
+	firstnum == answer;
 }
